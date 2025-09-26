@@ -1,0 +1,13 @@
+qid,query,variant,recall_like,latency_s,avg_ctx_len
+q1,How does Maia-2 differ from traditional chess engines like Stockfish?,baseline,1.0,0.0315,263.4
+q1,How does Maia-2 differ from traditional chess engines like Stockfish?,rerank,1.0,0.391,276.0
+q1,How does Maia-2 differ from traditional chess engines like Stockfish?,compress,1.0,0.0296,200.0
+q1,How does Maia-2 differ from traditional chess engines like Stockfish?,rerank+compress,1.0,0.4059,200.0
+q2,What datasets were used to train ChessGPT?,baseline,1.0,0.0249,248.8
+q2,What datasets were used to train ChessGPT?,rerank,1.0,0.383,250.4
+q2,What datasets were used to train ChessGPT?,compress,1.0,0.0244,200.0
+q2,What datasets were used to train ChessGPT?,rerank+compress,1.0,0.378,200.0
+q3,Why was Stockfish used to annotate ChessBench?,baseline,1.0,0.0234,286.6
+q3,Why was Stockfish used to annotate ChessBench?,rerank,1.0,0.3937,292.6
+q3,Why was Stockfish used to annotate ChessBench?,compress,1.0,0.0236,200.0
+q3,Why was Stockfish used to annotate ChessBench?,rerank+compress,1.0,0.3785,200.0
