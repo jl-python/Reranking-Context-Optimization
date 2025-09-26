@@ -1,0 +1,10 @@
+{
+  "track": "A",
+  "chunk_size": 300,
+  "chunk_overlap": 50,
+  "retriever": "BM25 + dense + RRF",
+  "dense_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "reranker": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+  "compression": "enabled",
+  "top_k": 10
+}
